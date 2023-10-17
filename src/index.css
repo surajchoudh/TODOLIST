@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: bisque;
+}
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.todos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.todo-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-width: 200px;
+}
+
+.todo-card select {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.todo-card button {
+  width: 100%;
+}
